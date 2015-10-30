@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>First Bootstrap File</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+    <div class= "col-xs-12">
+      
+<h1> Ancient Egypt</h1>
+
+<p> The quiz is about Egypt and it's rich history. </p>
+
+<p> <strong>This information is taken from <a href="https://en.wikipedia.org/wiki/Ancient_Egypt">Wikipedia</a></strong></p>
+
+<form>
+
+<div class="form-group">
+<label> Fill in the blank:<br>
+The <input type="text" name="lifeline" id="form-lifeline"> has been the lifeline of its region for much of human history. </label>
+</div>
+
+<div class="form-group">
+<p> <label> The <input type="text" name="pharoh" id="form-pharoh">  of the Middle Kingdom restored the country's prosperity and stability. </label></p>
+</div>
+
+<div class="form-group">
+<label> Name the main three Egyptian Pyramids...</label>
+<textarea name="pyramid_entry" class="form-control"></textarea>
+</div>
+
+<p> What kind of animals were a critical source of companionship, and sustenance to the ancient Egyptians?</p>
+
+<div class="checkbox">
+
+<label><input type="checkbox" name="animals" value= "cats-dogs"> Cats and Dogs</label>
+ 
+ </div>
+
+<div class= "checkbox">
+
+<label><input type="checkbox" name="animals" value="turtles-birds"> Turtles and Birds</label></div>
+
+<div class= "checkbox">
+<label><input type="checkbox" name="animals" value= "domesticwild"> Domestic and Wild</label>
+</div>
+
+<div class= "checkbox">
+<label><input type="checkbox" name="animals" value= "mammals-dinosaurs"> Mammals and Dinosaurs</label> </div>
+
+
+<p>What kind of writing did Ancient Egyptians write and read?</p>
+
+<div class="radio">
+
+<label class="radio-inline"> <input type="radio" name="writing" value="french"> French writing</label> </div>
+<div class="radio">
+
+<label class="radio-inline"><input type="radio" name="writing" value="hieroglyphic-writing"> Hieroglyphic writing </label></div>
+<div class="radio">
+
+<label class="radio-inline"><input type="radio" name="writing" value="Logographic"> Logographic</label></div>
+<div class="radio">
+
+<label class="radio-inline"><input type="radio" name="writing" value="German"> German writing</label></div>
+
+ 
+ <div class= "form-group">
+ 
+  <label for="selectyear"> When did Egypt became a province of the Roman Empire?</label>
+ 
+ <select id="selectyear">
+ 
+     <option> 30 BC</option>
+     <option> 20 BC</option>
+     <option> 1989 </option>
+     <option> 1999</option>
+     <option> 10 BC</option>
+     <option> 100 BC</option>
+     <option> 90 BC</option>
+     <option> 1994</option>
+     </select>
+ </div>
+ 
+  <div class= "form-group">
+  
+  <button type="submit" class="btn btn-success">Submit</button>
+  
+  <button type="reset" class="btn btn-warning">Restart the Quiz </button>
+   
+    </div>
+</form>
+</div>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
